@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.listaDeProdutos {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.produto img {
+  width: 150px;
+}
